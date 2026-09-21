@@ -36,7 +36,7 @@ function activateExperience() {
 }
 
 function showPersonalisation(name, word) {
-  personalGreeting.textContent = `Para Cintia`;
+  personalGreeting.textContent = `Para Cintia `;
   const heart = document.createElement('em');
   heart.textContent = '♡';
   personalGreeting.append(heart);
